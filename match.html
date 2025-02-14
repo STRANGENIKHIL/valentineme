@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Match Quiz</title>
+    
+    <style>
+        
+
+        .navbar {
+            width: 98%;
+            background: rgba(189, 42, 74, 0.9);
+            padding: 5px 20px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            
+            
+        }
+
+        .navbar img {
+            height: 60px;
+            
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            font-weight: 600;
+            transition: 0.3s ease-in-out;
+            border-radius: 5px;
+        }
+
+        .nav-links a:hover {
+            background: rgb(247, 244, 244);
+            color: black;
+        }
+
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(45deg, #FFB6C1, #abc248, #FFDAB9);
+            color: white;
+            text-align: center;
+            padding-top: 80px;
+        }
+        .quiz-container {
+            background: rgba(45, 42, 42, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+            margin: auto;
+            
+        }
+        h2 {
+            margin-bottom: 15px;
+        }
+        .question {
+            margin: 20px ;
+        }
+        label {
+            display: block;
+            
+            font-size: 19px;
+        }
+        .submit-btn {
+            padding: 10px 20px;
+            font-size: 18px;
+            background: #ff5733;
+            text-decoration: none;
+            color: white;
+            border: none;
+            border-radius: 100px;
+            
+            transition: 0.5s;
+        }
+        .submit-btn:hover {
+            background: #c70039;
+        }
+        
+    </style>
+    
+</head>
+<body>
+    <div class="navbar">
+        <img src="my youtube logo.jpg" alt="Logo">
+        <div class="nav-links"> 
+            <a href="index.html">Home</a>
+            <a href="explore.html">About</a>
+            <a href="match.html">Match with Me</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </div> 
+    <h1>Take This Quiz & See If We Match! ❤️</h1>
+    <div class="quiz-container">
+        
+            <div class="question">
+                <h2>Where do you live near?</h2>
+                <label><input type="checkbox"> Delhi</label>
+                <label><input type="checkbox"> Chennai</label>
+                <label><input type="checkbox" > Kolkata</label>
+                <label><input type="checkbox" > Mumbai</label>
+            </div>
+            
+            
+            <div class="question">
+                <h2>What's your ideal date?</h2>
+                <label><input type="checkbox" > Beach Walk</label>
+                <label><input type="checkbox" > Candlelight Dinner</label>
+                <label><input type="checkbox" > Adventure Trip</label>
+                <label><input type="checkbox"> Movie Night</label>
+            </div>
+            
+            <div class="question">
+                <h2>Which pet do you prefer?</h2>
+                <label><input type="checkbox" > Dog</label>
+                <label><input type="checkbox" > Cat</label>
+                <label><input type="checkbox" > Fish</label>
+                <label><input type="checkbox" > None</label>
+            </div>
+            
+            <div class="question">
+                <h2>What describes you best?</h2>
+                <label><input type="checkbox" > Funny & Outgoing</label>
+                <label><input type="checkbox" > Shy & Introverted</label>
+                <label><input type="checkbox" > Romantic & Dreamy</label>
+                <label><input type="checkbox" > Logical & Practical</label>
+            </div>
+            
+            <a href="submit.html" class="submit-btn">Submit</a>
+            </button>
+        </form>
+    </div>
+    
+    
+</body>
+</html>
